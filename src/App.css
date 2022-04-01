@@ -5,6 +5,12 @@
 }
 body{
   height:100vh;
-  background: linear-gradient(180deg, rgba(175,103,233,1) 0%, rgba(101,101,231,1) 100%);
+  background: linear-gradient(180deg, var(--bg-gradient-violet) 0%, var(--bg-gradient-blue) 100%);
   background-repeat: no-repeat;
+}
+.app__container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

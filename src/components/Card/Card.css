@@ -1,0 +1,9 @@
+.card__container{
+    background-color: white;
+    width: 1000px;
+    border-radius: 15px;
+}
+
+.card__container img {
+    width: 400px;
+}
