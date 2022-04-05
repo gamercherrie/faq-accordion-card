@@ -1,9 +1,16 @@
 .card__container{
+    position: relative;
     background-color: white;
-    width: 1000px;
+    width: 350px;
+    height: 550px;
     border-radius: 15px;
 }
 
 .card__container img {
-    width: 400px;
+    top: -20%;
+    width: 250px;
+    position: absolute;
+    margin-left: 50px;
+    display: flex;
+    border: 2px solid red;
 }
